@@ -1,0 +1,12 @@
+.body {
+  padding: 20px;
+}
+
+.loading {
+  filter: blur(10px);
+}
+
+.loaded {
+  filter: blur(0px);
+  transition: filter 0.5s linear;
+}

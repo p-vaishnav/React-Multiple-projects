@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+ 
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 90vh;
+  border: 2px solid red;
+  justify-content: center;
+  align-items: center;
+}
+
+.playArea {
+  border: 2px solid cyan;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.reset {
+  margin: 20px;
+  color: blue !important;
+  size: 16px;
+}
